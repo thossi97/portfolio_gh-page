@@ -1,0 +1,16 @@
+.links{
+    color: #b8b8b8;
+    padding: 1rem;
+    font-weight: 500;
+    
+}
+
+.links:hover {
+    background-color: inherit;
+    color:#eeeeee;
+    text-decoration: none;
+  }
+
+  .active {
+    color: #eeeeee;
+  }

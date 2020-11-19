@@ -1,0 +1,35 @@
+
+.container-about{
+    height: 100vh;
+    background-color: hsl(208, 100%, 90%) ;
+    text-align: center;
+}
+
+.about-image>img{
+   width: 13vw;
+   height: 13vw;
+   object-fit: cover;
+}
+
+.about-text{
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: rgb(227, 243, 255);
+  padding: 30vw;
+  width: 100%;
+  max-width: 70%;
+  position: relative;
+  padding: 20px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  margin-left: 15%;
+  font-size: large;
+  margin-top: 5%;
+}
+
+.about-image{
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}

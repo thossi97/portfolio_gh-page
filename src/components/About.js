@@ -22,9 +22,10 @@ class About extends React.Component  {
             <div className="container">
                 <div className="about-text">
                     <p>Vorið 2020 útskrifaðist ég með B.Sc. í tölvunarfræði með fyrstu einkunn við Háskóla Íslands. 
-                        Ég hef gaman af því að læra á nýja hluti sem tengjast forritun, hvort sem um ræðir forritunarmál,
-                        forritunarsöfn, læra að gera tölvuleiki, vefsíður o.s.fr. Ég stefni á áframhaldandi nám í stórum gagnasöfnum, gervigreind eða 
-                        tölvuleikjaforritun eins og staðan er nú, en getur auðveldlega breyst.
+Áhugamál mín liggja hvað helst í fótbolta, verja tíma með vinum, tölvuleikjum og að læra og upplifa nýja hluti. 
+Ég hef mikla reynslu af Java og Javascript þar sem þau voru helstu forritunarmálin sem kennd voru í HÍ ásamt þó nokkurri reynslu í Python.
+Í gegnum háskólagöngu mína hafði ég hvað mest gaman af þeim kúrsum sem gengu helst út á að hanna og kóða hugbúnað, hvort sem um ræddi tölvuleiki, vefsíður eða app.
+Ég stefni á áframhaldandi nám einhverntímann í framtíðinni en hugurinn er þó ekki alveg kominn þangað en.
                     </p>
                 </div>
             </div>

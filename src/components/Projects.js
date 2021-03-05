@@ -10,7 +10,7 @@ class Projects extends React.Component {
           }
     }
     componentDidMount(){
-        axios.get('/projects/')
+        axios.get('https://thorsteinn-portfolio.herokuapp.com/projects/')
         .then(res => {
             const projects = res.data.results;
             console.log(projects)

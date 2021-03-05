@@ -8,11 +8,11 @@ class About extends React.Component  {
     render () {
         return(
            
-    <div class="container-about" id="about">
+    <div className="container-about" id="about">
         <div className="about-content">
             <div className="container mt-5 pt-4">
             <div className="about-image">
-                <img src={prof} alt className="rounded-circle"/>  
+                <img src={prof} alt="" className="rounded-circle"/>  
             </div>
             </div>
             <h2 className="mt-5 pt-4 ">Þorsteinn Óskarsson</h2>

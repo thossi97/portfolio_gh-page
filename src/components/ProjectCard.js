@@ -7,11 +7,11 @@ class ProjectCard extends React.Component  {
     render () {
         let a = this.props.project.image
         let demo; 
-        if (this.props.project.demo){
+        if (this.props.project.url){
             demo = <a href={this.props.project.url} className="btn btn-primary">Demo</a>
         } 
         else {
-            demo = <a href={this.props.project.git} className="btn btn-secondary  disabled">Demo</a>
+            demo = <a href={this.props.project.url} className="btn btn-secondary  disabled">Demo</a>
         }
         return(
             

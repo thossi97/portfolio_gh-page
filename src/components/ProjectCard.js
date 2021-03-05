@@ -11,7 +11,7 @@ class ProjectCard extends React.Component  {
             demo = <a href={this.props.project.url} className="btn btn-primary">Demo</a>
         } 
         else {
-            demo = <a href="#" className="btn btn-secondary  disabled">Demo</a>
+            demo = <a href={this.props.project.git} className="btn btn-secondary  disabled">Demo</a>
         }
         return(
             

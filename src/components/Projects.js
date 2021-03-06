@@ -6,7 +6,8 @@ class Projects extends React.Component {
     constructor(props) {
         super(props);
           this.state = {
-            projects: []
+            projects: [],
+            isFetching: true
           }
     }
     componentDidMount(){
@@ -14,7 +15,8 @@ class Projects extends React.Component {
         .then(res => {
             const projects = res.data.results;
             console.log(projects)
-            this.setState({ projects: projects });
+            this.setState({ projects: projects,
+                            isFetching: false });
         })
         .catch(err => {
             console.error('Error', err)
@@ -37,6 +39,11 @@ class Projects extends React.Component {
                                 <div className="col-sm-4 mb-3">
                                     <ProjectCard project={project}/> 
                                 </div>)
+                        }    
+                    </div>
+                    <div className="row">  
+                        {
+                            this.state.isFetching && <p>Loading...</p>
                         }    
                     </div>
                 </div>

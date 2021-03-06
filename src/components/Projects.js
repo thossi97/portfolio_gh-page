@@ -16,7 +16,7 @@ class Projects extends React.Component {
             const projects = res.data.results;
             console.log(projects)
             this.setState({ projects: projects,
-                            isFetching: true });
+                            isFetching: false });
         })
         .catch(err => {
             console.error('Error', err)
